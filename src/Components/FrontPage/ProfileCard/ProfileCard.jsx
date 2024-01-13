@@ -16,7 +16,7 @@ const ProfileCard = () => {
         <div className="card-inner">
           <div className="front">
             <h2>Athar</h2>
-            <p>Web developer, India</p>
+            <p>Developer, India</p>
             <button className="front-btnn">Hover me</button>
           </div>
           <div className="back">
@@ -27,7 +27,7 @@ const ProfileCard = () => {
               <span>Ansari</span>
             </h1>
             <p>
-              I'm a Web developer Pursuing <span>B.tech</span> Engineering.
+              I'm a Front-End developer Pursuing <span>B.tech</span> Engineering.
             </p>
             <div className="row">
               <div className="col">
