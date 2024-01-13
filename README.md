@@ -22,5 +22,5 @@
 ## 🙏 Support
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐️<br>
 
-<img src="https://github.com/athar-ansari/EASY-GRADE/assets/118714083/ef8d2a75-41dd-4b7d-b7ce-d5716b6584ab-dark-mode-only" width="100%"><br>
-<img src="https://github.com/athar-ansari/EASY-GRADE/assets/118714083/5a49ad32-434b-4dc8-8073-e536c4f6a6e5-light-mode-only" width="100%"><br>
+<img src="https://github.com/athar-ansari/EASY-GRADE/assets/118714083/2c7e528a-826f-42e7-849f-21e4539bbef3" width="65%"><br>
+
