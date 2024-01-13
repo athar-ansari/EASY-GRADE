@@ -10,12 +10,13 @@
 
 ## 👓 Preview
 
-![Laptop](https://github.com/athar-ansari/EASY-GRADE/assets/118714083/f09ba521-4ad3-4b61-9cd6-ed6a07c6c89c)<br>
+![Laptop](https://github.com/athar-ansari/EASY-GRADE/assets/118714083/61d6d6c0-ef35-4dbf-a847-c844932b41e9)<br>
 
 ### Responsive  Preview
-![Ttablet](https://github.com/athar-ansari/EASY-GRADE/assets/118714083/0ad7556d-f3c3-4b63-991f-3dccad35fb66)<br>
 
+![Ttablet](https://github.com/athar-ansari/EASY-GRADE/assets/118714083/8278efcc-6640-49ea-9897-b720efbb668b)<br>
 
+![Mobile](https://github.com/athar-ansari/EASY-GRADE/assets/118714083/4e0a18a5-1acd-423c-8e2d-b12e9a2855ac)<br>
 
 
 ## 🙏 Support
