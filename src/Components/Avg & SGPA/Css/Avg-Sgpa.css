@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap");
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url(../../../Static/Images/Bakground.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-box {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(9px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-value h2 {
+  height: 55px;
+  font-size: 1.35rem;
+  letter-spacing: 3px;
+  font-family: "Rubik Doodle Shadow";
+  color: #fff;
+  text-align: center;
+}
+
+.inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+input:focus ~ label {
+  top: -5px;
+}
+input:valid ~ label {
+  top: -5px;
+}
+
+.inputbox input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 0 35px 0 5px;
+  color: #fff;
+}
+
+.rslt {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.bck {
+  margin-top: 30px;
+  margin-left: 65px;
+  height: 40px;
+  width: 60%;
+  color: #ececec;
+  padding: 8px 22px;
+  border-radius: 6px;
+  background: #3b098b;
+  transition: all 0.2s ease;
+  letter-spacing: 0.1rem;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+.bck:hover {
+  box-shadow: 0 0 0 3px #ececec, 0 0 0 6px #3b098b;
+}
+
+/* ================ RESPONSIVE DESIGN START ================ */
+
+@media (max-width: 600px) {
+  .form-box {
+    width: 350px;
+    height: 400px;
+  }
+
+  .bck {
+    width: 70%;
+    font-size: 1.12rem;
+    margin-left: 48px;
+  }
+}
+
+@media (max-width: 390px) {
+  .form-box {
+    width: 300px;
+    height: 390px;
+  }
+  .inputbox {
+    width: 230px;
+  }
+  .bck {
+    display: none;
+  }
+}
+
+/* ================ RESPONSIVE DESIGN END ================ */
