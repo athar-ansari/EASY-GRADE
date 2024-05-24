@@ -7,7 +7,7 @@
  
 
 ## 🔗 Access the Website
-<!-- [Welcome to My Portfolio](https://easygrade.vercel.app/) -->
+[Welcome to My Portfolio](https://easygrade.vercel.app/)
 <br>
 
 ## 🚀 Support
