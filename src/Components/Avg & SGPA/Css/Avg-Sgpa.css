@@ -131,7 +131,9 @@ input:valid ~ label {
     width: 230px;
   }
   .bck {
-    display: none;
+    width:65% ;
+    font-size: 0.7rem;
+    margin-left: 38px;
   }
 }
 
