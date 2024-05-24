@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Css/Avg-Sgpa.css";
 import { Link } from "react-router-dom";
-import BottomNavigation from "../BottomNavigation/BottomNavigation";
 import { motion } from "framer-motion";
 
 const Sgpa = () => {
@@ -48,8 +47,6 @@ const Sgpa = () => {
           </Link>
         </div>
       </motion.div>
-      {/* ================ BoNavigation ================ */}
-      <BottomNavigation />
     </section>
   );
 };

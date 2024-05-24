@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap");
 
 .main {
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
   background: url(../../../Static/Images/Bakground.jpg) no-repeat;
+  filter: brightness(95%);
   background-position: center;
   background-size: cover;
 }
@@ -29,7 +31,8 @@
   font-size: 1.35rem;
   letter-spacing: 3px;
   font-family: "Rubik Doodle Shadow";
-  color: #fff;
+  color: #000;
+  font-weight: 900;
   text-align: center;
 }
 
@@ -66,7 +69,8 @@ input:valid ~ label {
   border: none;
   outline: none;
   font-size: 1em;
-  font-weight: 700;
+  font-weight: 500;
+  font-style: italic;
   padding: 0 35px 0 5px;
   color: #fff;
 }

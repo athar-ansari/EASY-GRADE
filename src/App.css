@@ -6,3 +6,27 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+/* ================ TYPING... TEXT EFFECT START ================ */
+
+.txt {
+  font-family: "Montserrat" !important;
+  background: linear-gradient(120deg, #eb0f97, #f566f0, #3b098b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 8s ease-in-out infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ================ TYPING... TEXT EFFECT END ================ */
