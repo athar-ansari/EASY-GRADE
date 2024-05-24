@@ -30,3 +30,47 @@
 }
 
 /* ================ TYPING... TEXT EFFECT END ================ */
+
+
+
+/* ================ STYLE FOR INTERN START ================ */
+
+.intern {
+  position: absolute;
+  color: #000;
+  font-weight: 550;
+  font-style: italic;
+  font-size: 2.5rem;
+  z-index: 9999;
+  right: 1%;
+  bottom: 1%;
+}
+
+.intern::before {
+  content: "99%";
+  animation: percent 3.5s ease-in-out;
+}
+
+@keyframes percent {
+  0% {
+    content: "0%";
+  }
+  25% {
+    content: "25%";
+  }
+  50% {
+    content: "50%";
+  }
+  60% {
+    content: "60%";
+  }
+  75% {
+    content: "75%";
+  }
+  90% {
+    content: "90%";
+  }
+  99% {
+    content: "99%";
+  }
+}

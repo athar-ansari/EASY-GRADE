@@ -5,21 +5,12 @@
 ## 📋 About
   Our website simplifies semester exam percentage calculations for " MAKAUT University Students ". It offers two buttons: one calculates single-semester percentage based on SGPA, and the other finds the average percentage for two semesters using provided SGPAs.<br>
  
- ## 🔗 To see the project
-[Easy Grade Website](https://easygrade.vercel.app/)<br>
 
-## 👓 Preview
+## 🔗 Access the Website
+<!-- [Welcome to My Portfolio](https://easygrade.vercel.app/) -->
+<br>
 
-![Laptop](https://github.com/athar-ansari/EASY-GRADE/assets/118714083/61d6d6c0-ef35-4dbf-a847-c844932b41e9)<br>
-
-### Responsive  Preview
-
-![Ttablet](https://github.com/athar-ansari/EASY-GRADE/assets/118714083/8278efcc-6640-49ea-9897-b720efbb668b)<br>
-
-![Mobile](https://github.com/athar-ansari/EASY-GRADE/assets/118714083/4e0a18a5-1acd-423c-8e2d-b12e9a2855ac)<br>
-
-
-## 🙏 Support
+## 🚀 Support
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐️<br>
 
 
