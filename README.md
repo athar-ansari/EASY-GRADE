@@ -8,7 +8,7 @@ Our website simplifies semester exam percentage calculations for " MAKAUT Univer
 
 ## 🔗 Access the Website
 
-[Welcome to My Portfolio](https://easygrade.vercel.app/)
+[EasyGrade](https://easygrade.vercel.app/)
 <br>
 
 ## 🚀 Support
