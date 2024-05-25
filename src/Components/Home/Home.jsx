@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 import maths from "../../Static/Images/maths.gif";
 import { Link } from "react-router-dom";
@@ -31,7 +30,7 @@ const Home = () => {
         <Preloader />
       ) : (
         <>
-          <div className="bg-white ">
+          <div className="bg-white overflow-hidden h-screen">
             {/* NAVBAR */}
             <div className="navbar flex justify-between items-center">
               <div className="nav-tex  h-14 w-48 ml-10 mt-5  font-semibold text-4xl xs:ml-5  xs:text-3xl">
@@ -68,20 +67,8 @@ const Home = () => {
                 />
               </div>
               {/* CONTENT */}
-              <div className="mx-auto max-w-2xl mt-10 xs:mt-5">
-                <div className="text-center">
-                  <h1 className="text-5xl font-bold tracking-tight text-gray-900 xs:text-3xl">
-                    Hi, I'm {""}
-                    <span className="txt text-5xl xs:text-3xl">
-                      <Typewriter
-                        words={["Athar", "Programmer", "Devloper", "Designer"]}
-                        loop={true}
-                        typeSpeed={250}
-                        deleteSpeed={150}
-                        delaySpeed={1000}
-                      />
-                    </span>
-                  </h1>
+              <div className="mx-auto max-w-2xl mt-32 xs:mt-20">
+                <div className="text-center ">
                   <motion.p
                     initial="hidden"
                     animate="visible"

@@ -43,9 +43,9 @@ const Preloader = () => {
               loop={false}
               cursor
               cursorStyle="_"
-              typeSpeed={24}
-              deleteSpeed={2000}
-              delaySpeed={ 0.1}
+              typeSpeed={20}
+              deleteSpeed={3000}
+              delaySpeed={0.1}
               onTypingComplete={() => setCompletion("100%")}
             />
           </motion.div>
