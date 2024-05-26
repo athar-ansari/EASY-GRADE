@@ -41,8 +41,6 @@ const Preloader = () => {
                 'Our Website Simplifies Semester Exam Percentage Calculations for "MAKAUT University Students".',
               ]}
               loop={false}
-              cursor
-              cursorStyle="_"
               typeSpeed={20}
               deleteSpeed={3000}
               delaySpeed={0.1}
