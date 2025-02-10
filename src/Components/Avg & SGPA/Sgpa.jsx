@@ -10,7 +10,7 @@ const Sgpa = () => {
   const handleSubmit = () => {
     // Ensure that number are not empty before performing addition
     if (number !== "") {
-      const sum = (number - 0.75) * 10;
+      const sum = ((number - 0.75) * 10).toFixed(2);
       setResult(`${sum} %`);
     } else {
       // Handle the case where one or both of the numbers are empty

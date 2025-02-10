@@ -12,7 +12,7 @@ const Average = () => {
     // Ensure that number1 and number2 are not empty before performing addition
     if (number1 !== "" && number2 !== "") {
       const adding = (parseFloat(number1) + parseFloat(number2)) / 2;
-      const sum = (adding - 0.75) * 10;
+      const sum = ((adding - 0.75) * 10).toFixed(2);
       setResult(`${sum} %`);
     } else {
       // Handle the case where one or both of the numbers are empty
